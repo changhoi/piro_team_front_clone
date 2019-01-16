@@ -5,7 +5,9 @@ window.addEventListener("resize", function(){
        document.querySelector("nav.navbar").classList.add('nav_shrink');
     }
     else{
+      if (document.body.scrollTop <= 80 && document.documentElement.scrollTop <= 80){
         document.querySelector("nav.navbar").classList.remove('nav_shrink');
+      }
     }
  });
 
@@ -19,3 +21,4 @@ function scrollFunction() {
   }
 }
 
+document.body.scr

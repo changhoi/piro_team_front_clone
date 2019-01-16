@@ -10,11 +10,12 @@ window.addEventListener("resize", function(){
  });
 
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) { 
     document.querySelector("nav.navbar").classList.add('nav_shrink');
   } else {
-      
-    document.querySelector("nav.navbar").classList.remove('nav_shrink');
+    if (window.innerWidth >= 992) {
+        document.querySelector("nav.navbar").classList.remove('nav_shrink');
+    }
   }
 }
 

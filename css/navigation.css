@@ -4,24 +4,27 @@ nav.navbar {
     width: 100%;
     background-color: transparent !important;
     padding: 25px 16px;
+    overflow: hidden;
+    transition: 0.4s;
 }
-
+nav.navbar.nav_shrink {
+    background-color: #212529 !important;
+    padding: 8px 16px;
+}
 
 a.nav_logo {
     font-family: 'Kaushan Script', cursive;
     color: #fed136 !important;
-    font-size: 1.25rem;
-    transition: color .1s linear; 
+    font-size: 1.75em;
+    transition: all .1s linear;
 }
 
 a.nav_logo:hover {
     color: #FEC503 !important;
 }
 
-@media (min-width: 992px) {
-    a.nav_logo {
-        font-size: 1.75em;
-    }
+nav.nav_shrink a.nav_logo {
+    font-size: 1.25rem;
 }
 
 div.container button.navbar-toggler {
@@ -31,7 +34,7 @@ div.container button.navbar-toggler {
     color: white;
     padding: 13px;
     border: none;
-    
+
 }
 
 div.nav-menu {
@@ -53,8 +56,11 @@ div.nav-menu a {
 div.nav-menu a:hover {
     color: #fed136 !important;
 }
-/* TOOD
 
+
+
+/* TOOD
+어두워질 때 메뉴 바 색: #212529
 로고 글씨체: 'Kaushan Script'
 로고에 hover -> 색 진해짐
 화면 작을 때 메뉴 MENU바

@@ -1,0 +1,39 @@
+.section2 {
+    padding: 100px 0;
+}
+.s2_h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: rgb(33, 37, 41);
+    margin-bottom: 15px;
+}
+.s2_h2 {
+    font-family: "Droid Serif", -apple-system;
+    font-size: 16px;
+    color: rgb(108, 117, 125);
+    margin-bottom: 75px;
+}
+.s2_h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    color: rgb(33, 37, 41);
+    margin: 15px 0;
+}
+.s2_p1 {
+    font-family: "Droid Serif", -apple-system;
+    font-size: 16px;
+    color: rgb(108, 117, 125);
+    margin-bottom: 16px;
+}
+.s2_circle {
+    display: inline-block;
+    background-color: #FED136 !important;
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+    text-align: center;
+}
+.s2_icon {
+    color: white;
+    line-height: 125px;
+}

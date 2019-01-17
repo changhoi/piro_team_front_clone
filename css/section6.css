@@ -1,0 +1,50 @@
+﻿.sec6_container h1{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+    padding-top: 100px;
+    font-family: inherit;
+}
+
+.sec6_container h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-weight: 100;
+    color: white;
+}
+
+.sec6_margin{
+   padding-right: 20px;
+    padding-left: 20px;
+
+
+}
+.sec6_textbox{
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+
+}
+.sec6_space{
+    padding-right: 10px;
+}
+.form-control{
+    height: 60px;
+}
+.sec6_container {
+    background-image: url("../images/map.jpg")
+
+}
+.sec6_button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    width: 300px;
+    height: 50px;
+    vertical-align: middle;
+    background-color: #fed136;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

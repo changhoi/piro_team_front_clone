@@ -7,6 +7,10 @@
     padding: 100px 0;
 }
 
+div.img_card {
+    margin-bottom: 15px;
+}
+
 @media (min-width: 768px) {
     .sec3_wrap {
         padding: 150px 0;

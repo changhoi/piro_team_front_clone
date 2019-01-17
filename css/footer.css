@@ -1,0 +1,43 @@
+.footer {
+    padding: 25px 0;
+}
+.f_left {
+    display: inline;
+    font-size: 16px;
+    color: rgb(33, 37, 41);
+    margin: 0;
+    line-height: 40px;
+}
+.f_circle {
+    background-color: #212529;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.f_circle:hover {
+    background-color: #fed136;
+}
+.f_icon {
+    color: white;
+    line-height: 50px;
+}
+.f_ul {
+    margin: 0;
+}
+.f_li {
+    margin-right: 8px;
+}
+.f_right {
+    color: #fed136;
+    font-size: 14.4px;
+    line-height: 40px;
+}
+.f_right:hover {
+    color: #fed136;
+}
+@media (min-width: 768px){
+    .f_media {
+        padding: 0 20px;
+        text-align: center;
+    }
+}

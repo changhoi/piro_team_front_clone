@@ -31,35 +31,113 @@
 }
 
 .section4_timeline li {
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.section4_helper {
+    display: inline-block;
+    height: 200px;
+}
+
+/* img */
+
+.section4_tl_img {
+    display: block;
+    border: 7px solid #e9ecef;
+    border-radius: 100%;
+    position: absolute;
+    left: 50%;
     text-align: center;
+    margin-left: -75px;
+    width: 150px;
+    height: 150px;
+    background-color: #fed136;
+}
+
+.section4_tl_img > img {
+    border-radius: 50%;
+    width: 100%;
+    height: auto;
+}
+
+#section4_tl_phrase {
+    font-size: 18px;
+    color: white;
+}
+
+#section4_tl_phrase h4 {
+    margin-top: 20px;
 }
 
 
 /* panel */
 
 .section4_tl_panel {
-    width: 400px;
-    /*float: left;*/
-    display: block;
+    width: 41%;
+    padding: 0 20px 20px;
+}
+
+.section4_panel1 {
+    float: left;
     text-align: right;
-    padding-left: 50px;
+}
+
+.section4_panel2 {
+    float: right;
+    text-align: left;
+}
+
+.section4_tl_panel h3 {
+    font-weight: bold;
 }
 
 .section4_tl_panel p {
+    color: #6c757d;
     margin: 0;
 }
 
+@media (min-width: 768px)  and (max-width: 991px) {
+    .section4_tl_img {
+        width: 100px;
+        height: 100px;
+        margin-left: -50px;
+    }
 
-/* img */
-
-.section4_tl_img {
-    display: inline-block;
-    border: 7px solid #e9ecef;
-    border-radius: 100%;
+    #section4_tl_phrase h4 {
+        font-size: 13px;
+    }
 }
 
-.section4_tl_img > img {
-    border-radius: 50%;
-    width: 170px;
-    height: 170px;
+@media (max-width: 787px) {
+    .section4_timeline li {
+        margin-bottom: 60px;
+    }
+
+    .section4_tl_img {
+        left: 0;
+        margin-left: 0;
+    }
+
+    .section4_panel1, .section4_panel2{
+        float: right;
+        text-align: left;
+        position: relative;
+        width: 100%;
+        padding-left: 100px;
+    }
+
+    .section4_tl_img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .section4_helper {
+        height: 0;
+    }
+
+    #section4_tl_phrase h4 {
+        font-size: 10px;
+        margin-top: 15px;
+    }
 }

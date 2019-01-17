@@ -6,6 +6,7 @@ nav.navbar {
     padding: 25px 16px;
     overflow: hidden;
     transition: 0.4s;
+    z-index: 99;
 }
 nav.navbar.nav_shrink {
     background-color: #212529 !important;

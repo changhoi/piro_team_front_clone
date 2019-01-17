@@ -12,7 +12,9 @@ window.addEventListener("resize", function(){
  });
 
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) { 
+  const bodyTop = document.body.scrollTop;
+  const eleTop = document.documentElement.scrollTop;
+  if (bodyTop > 80 || eleTop > 80) { 
     document.querySelector("nav.navbar").classList.add('nav_shrink');
   } else {
     if (window.innerWidth >= 992) {
@@ -20,5 +22,3 @@ function scrollFunction() {
     }
   }
 }
-
-document.body.scr
